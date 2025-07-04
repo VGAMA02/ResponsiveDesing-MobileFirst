@@ -29,3 +29,60 @@ html{
     font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
 }
+
+header{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px; /* Dimension mas chica en celulares */
+    height: 334px;
+    text-align: center;
+    flex-wrap: wrap; /* Opcional: permite que se acomode en móviles si no hay espacio */
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+    
+}
+.header--logo-container{
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    padding-bottom: 30px;
+    padding-top: 70px;
+    
+}
+header img{
+    width: 150px;
+    height: 100px;
+    align-self: center;
+    
+}
+.header--p-logo{
+    color: var(--bitcoin-orange);
+    left: 5px; /* 100px del svg - 5px de superposición */
+    font-size: 30px;
+    margin-right: 40px;
+    align-self: center;
+}
+.header--title-container{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 218px;
+    margin-top: 40px;
+    text-align: center;
+    align-self: center;
+}
+.header--title-container h1{
+    font-size: 2.4rem;
+    font-size: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+.header--title-container p{
+    margin-top: 25px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--soft-orange);
+}
