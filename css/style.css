@@ -250,3 +250,65 @@ main{
     line-height: 1.5rem;
     color: var(--warm-black);
 }
+.sucursales-table--date{
+    width: 210px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: var(--secondary-blue);
+    border-radius: 8px;
+    color: var(--grey);
+    
+}
+.sucursales-table--date p{
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.5rem;
+    color: var(--warm-black);
+}
+.sucursales-table--title{
+    font-family: "Inter",sans-serif;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold !important;
+    line-height: 2.3rem;
+    color: var(--secondary-blue);
+}
+.main-product-detail{
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--warm-black);
+}
+.product-detail--taco-logo{
+    position: absolute;
+    top: -25px;
+    left: calc(50% - 42px);
+    width: 80px;
+    height: 50px;
+}
+.product-detail--title{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.product-detail--title h2{
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+.product-detail--title p{
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
